@@ -3,28 +3,27 @@ import styled from 'styled-components';
 import LoginForm from './LoginForm';
 
 const LoginLayout = () => {
-  return (
-    <Container>
-      <FormSide>
+    return (
+        <Container>
+            <FormSide>
 
-        <Block>
-          <Logo src="/images/logo.svg" />
-          <h1>Sign in</h1>
-          <LoginForm />
-        </Block>
+                <Block>
+                    <Logo src="/images/logo.svg" />
+                    <h1>Sign in</h1>
+                    <LoginForm />
+                </Block>
 
-        <Block>
-          <a href="www.google.com">Can't sing in ? </a>
-          <a href="www.google.com">Create account </a>
-        </Block>
+                <Block>
+                    <a href="www.google.com">Can't sing in ? </a>
+                    <a href="www.google.com">Create account </a>
+                </Block>
 
-
-      </FormSide>
-      <ImagesSide>
-        <Background src="/images/background-1.jpg" />
-      </ImagesSide>
-    </Container>
-  )
+            </FormSide>
+            <ImagesSide>
+                <Background src="/images/background-1.jpg" />
+            </ImagesSide>
+        </Container>
+    )
 }
 
 export default LoginLayout;
@@ -65,7 +64,7 @@ const Logo = styled.img`
     width:3em;
 `
 const Block = styled.div`
-    padding:3em 0;
+    padding:1.5em 0;
     display:flex;
     flex-direction:column;
     align-items:center;
