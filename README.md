@@ -1,4 +1,4 @@
-League of Legend Landing Page
+# League of Legend Landing Page
 
 
 Gaming landing page with Login Form created (React & Material UI).
