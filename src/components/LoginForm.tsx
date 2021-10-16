@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
   button: {
     borderRadius: "15pt",
     width: "4.5em",
-    height: "4.5em"
+    height: "4.5em",
   },
   icon: {
     width: "45px",
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const labelStyle = {
+const labelStyle: React.CSSProperties = {
   fontSize: "9pt",
   fontWeight: 700,
   textTransform: "uppercase"

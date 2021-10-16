@@ -6,18 +6,15 @@ const LoginLayout = () => {
     return (
         <Container>
             <FormSide>
-
                 <Block>
                     <Logo src="/images/logo.svg" />
                     <h1>Sign in</h1>
                     <LoginForm />
                 </Block>
-
                 <Block>
                     <a href="www.google.com">Can't sing in ? </a>
                     <a href="www.google.com">Create account </a>
                 </Block>
-
             </FormSide>
             <ImagesSide>
                 <Background src="/images/background-1.jpg" />
@@ -72,14 +69,12 @@ const Block = styled.div`
     h1 {
         font-size:1.5em;
     }
-
     a {
         color:#cacaca;
         text-transform:uppercase;
         font-size:.69em;
         margin:.3em;
     }
-
 `
 
 
